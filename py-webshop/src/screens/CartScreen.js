@@ -20,7 +20,7 @@ function CartScreen(props) {
 
     useEffect(() => {
         if (id) {
-            dispatch(addToCart(id, quantity));
+            dispatch(addToCart(id, quantity))
         }
     }, [dispatch, id, quantity]);
 

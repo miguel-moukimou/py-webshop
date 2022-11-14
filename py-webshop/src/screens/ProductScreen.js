@@ -21,7 +21,7 @@ function ProductScreen() {
         dispatch(productDetails(id));
     }, [])
 
-    const addToCartHandler = (props) =>{
+    const addToCartHandler = () =>{
         navigate(`/cart/${id}?qty=${qty}`);
     }
 
