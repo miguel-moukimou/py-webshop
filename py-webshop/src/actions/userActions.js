@@ -6,7 +6,10 @@ import {USER_LOGIN_REQUEST,
     USER_LOGIN_REQUEST_FAIL,
     USER_REGISTER_REQUEST,
     USER_REGISTER_REQUEST_SUCCESS,
-    USER_REGISTER_REQUEST_FAIL
+    USER_REGISTER_REQUEST_FAIL,
+    USER_DETAILS_REQUEST,
+    USER_DETAILS_REQUEST_SUCCESS,
+    USER_DETAILS_REQUEST_FAIL
 } from '../constants/userConstants';
 
 export const login = (email, password) => async (dispatch) => {
