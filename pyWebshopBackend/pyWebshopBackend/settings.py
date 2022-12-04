@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-ge7%lcxoyy3pbj5n4@cdhul8gedo8af0*zw%e5a%uk%6y)n^9r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'https://centi-shop.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'centi-shop.herokuapp.com']
 
 
 # Application definition
