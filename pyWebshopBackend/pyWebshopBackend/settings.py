@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-ge7%lcxoyy3pbj5n4@cdhul8gedo8af0*zw%e5a%uk%6y)n^9r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'https://centi-shop.herokuapp.com']
 
 
 # Application definition
@@ -92,6 +92,7 @@ SIMPLE_JWT = {
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
 
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -187,11 +188,10 @@ STATICFILES_DIRS = [
     BASE_DIR / 'py-webshop/build/static'
 ]
 
-MEDIA_ROOT = 'static/images'
+MEDIA_ROOT = BASE_DIR / 'static/images'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 CORS_ALLOW_ALL_ORIGINS = True
-
-STATIC_ROOT = 'static/images'
 
 
 # Enable WhiteNoise's GZip compression of static assets.
