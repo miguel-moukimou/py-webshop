@@ -22,6 +22,7 @@ The goal of this web application is to provide a virtual webshop to the users. I
         8. As logged in user, I want to be able to click on a product on the webshop to get more details about it
         9. As logged in user, I want to be able to add products to my shopping cart
         10. As logged in user, I want to be able to visit my shopping cart to see the list of products I have selected
+        11. As logged in user, I want to be able to view my profile page and to edit it
 
 
 
@@ -92,6 +93,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. On the top bar, just click on the LOGIN menu item to see the login form or go to the user registration form
     6. As logged in user I would like to see my name on the top of the page
         1. On the top bar, your name will appear as a menu item, after a successful login request
+    7. As logged in user, I want to be able to view my profile page and to edit it
+        1 After logging in, click on your name on the top menu bar, then click on profile to view your profile page and edit it
 
     
 
