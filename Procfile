@@ -1,0 +1,1 @@
+web: gunicorn pyWebshopBackend.wsgi  --log-file -
